@@ -19,6 +19,7 @@
 '''
 import random
 import words
+import sys
 
 def checkSpelling(response, word):
 	rl = list(response)
@@ -58,13 +59,29 @@ def checkSpelling(response, word):
 
 
 def quiz():
+	print("What do you want to learn?")
+	print("All words: type a")
+	print("Recent new words: type b")
+	print("Today's words: type c")
+	while True:
+		learn = input("Type of learning: ")
+		if learn == "a":
+			words.fillAll()
+			break
+		elif learn == "b":
+			words.fillRecent()
+			break
+		elif learn == "c":
+			words.fillToday()
+			break
+		else:
+			print("Not a proper key. Type either a, b, or c")
 	
 	print("")
 	print("-c to show word choice")
 	print("-h to show example sentence")
 	print("\nBegin...\n")
 	
-	words.fillAll()
 	indicesOfTestWords = [i for i in range(len(words.allWords))]
 	
 	while (len(indicesOfTestWords) != 0):
@@ -111,8 +128,9 @@ def quiz():
 			print("---------------------------")
 			question += 1
 		print("your score is: %i/%i\n" % (score, len(indicesOfTestWords)))
-		print("Now, attempt the ones you got wrong.")
 		indicesOfTestWords = indiciesOfWrongWords
+		if len(indicesOfTestWords) != 0:
+			print("Now, attempt the ones you got wrong.")
 
 	print("Nice job")
 
