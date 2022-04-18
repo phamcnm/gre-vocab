@@ -57,7 +57,7 @@ def checkSpelling(response, word):
 	return False
 
 
-def main():
+def quiz():
 	
 	print("")
 	print("-c to show word choice")
@@ -110,12 +110,12 @@ def main():
 						break
 			print("---------------------------")
 			question += 1
-		print("your score is: %i/%i" % (score, len(indicesOfTestWords)))
+		print("your score is: %i/%i\n" % (score, len(indicesOfTestWords)))
 		print("Now, attempt the ones you got wrong.")
 		indicesOfTestWords = indiciesOfWrongWords
 
 	print("Nice job")
 
-main()
+quiz()
 
 
