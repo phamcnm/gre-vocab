@@ -65,61 +65,54 @@ def main():
 	print("\nBegin...\n")
 	
 	words.fillAll()
-	testWords = words.allWords
-	testDefinitions = words.allDefinitions
+	indicesOfTestWords = [i for i in range(len(words.allWords))]
 	
-	while (len(testWords) != 0):
-		
+	while (len(indicesOfTestWords) != 0):
 		score = 0
-		n = len(testDefinitions)
-		l = [i for i in range(len(testWords))]
-		random.shuffle(l)
-		wrongWords = []
-		wrongDefinitions = []
+		random.shuffle(indicesOfTestWords)
+		
+		indiciesOfWrongWords = []
 		question = 1
-		for i in range(len(l)):
+		for i in indicesOfTestWords:
 			
 			print("%i)" % question, end = ' ')
-			print(testDefinitions[l[i]])
+			print(words.allDefinitions[i])
+
+			choices = random.sample(words.allWords, random.randrange(4,8))
+			if words.allWords[i] not in choices:
+				choices.append(words.allWords[i])
+			random.shuffle(choices)
+
+			while True:
 			
-			val = input("Your response: ")
-			if (val == "-c"):
-				choices = random.sample(words.allWords, random.randrange(4,8))
-				if testWords[l[i]] not in choices:
-					choices.append(testWords[l[i]])
-				random.shuffle(choices)
-				print("Choices: ", end = '')	
-				print(choices)
 				val = input("Your response: ")
-			if val == testWords[l[i]]:
-				print("Correct :)")
-				score += 1
-			else:
-				while checkSpelling(val, testWords[l[i]]):
-					print("Close. Wrong spelling. Type again.")
-					val = input("Your response: ")
-					if (val == "-c"):
-						choices = random.sample(words.allWords, random.randrange(4,8))
-						if testWords[l[i]] not in choices:
-							choices.append(testWords[l[i]])
-						random.shuffle(choices)
-						print("Choices: ", end = '')	
-						print(choices)
-						val = input("Your response: ")
-					if val == testWords[l[i]]:
-						print("Correct :)")
-						score += 1
-						break
+				if (val == "-c"):
+					print("Choices: ", end = '')	
+					print(choices)
+					continue
+				if (val == "-h"):
+					example = words.allExamples[i]
+					exampleL = example.split()
+					exampleL[exampleL.index(words.allWords[i])] = '______'
+					print(' '.join(exampleL))
+					continue
+				if val == words.allWords[i]:
+					print("Correct :)")
+					score += 1
+					break
 				else:
-					print("Incorrect :(")
-					wrongWords.append(testWords[l[i]])
-					wrongDefinitions.append(testDefinitions[l[i]])
+					if checkSpelling(val, words.allWords[i]):
+						print("Close. Wrong spelling. Type again.")
+						continue
+					else:
+						print("Incorrect :(")
+						indiciesOfWrongWords.append(i)
+						break
 			print("---------------------------")
 			question += 1
-		print("your score is: %i/%i" % (score, len(testWords)))
+		print("your score is: %i/%i" % (score, len(indicesOfTestWords)))
 		print("Now, attempt the ones you got wrong.")
-		testWords = wrongWords
-		testDefinitions = wrongDefinitions
+		indicesOfTestWords = indiciesOfWrongWords
 
 	print("Nice job")
 
