@@ -72,7 +72,7 @@ definitionsDay1 = ["including or containing people from many different countries
 			   "the apperance of being true or real",\
 			   "having or showing tendency to be easily angered",\
 			   "a feeling of intense irratation or arrogance"]
-examplesDay1 = ["Cosmopolitan metropolis.",\
+examplesDay1 = ["I have never seen a diverse as this city, so no wonder it is called the cosmopolitan metropolis.",\
 			   "Her father had tried persuasion, but she was intransigent and refused to listen.",\
 			   "A mercenary Wall St broker.",\
 			   "Stubbornly insular farming people.",\
@@ -85,7 +85,7 @@ examplesDay1 = ["Cosmopolitan metropolis.",\
 			   "Confounding variables make the stat ambiguous that people can interpret it differently.",\
 			   "They were so persuasive that it's hard to gainsay their conclusion.",\
 			   "Given their sterling reputation, it's not in our favor to challenge them.",\
-			   "A prescient warning about nrxt year global climate situation.",\
+			   "It is a prescient warning about next year global climate situation.",\
 			   "The company has a proprietary rights to the property.",\
 			   "The didactic novel taught students how to be kind to neighbors as ourselves.",\
 			   "The law was made to perpetuate the interests of the ruling class. it's hard to change the system.",\
