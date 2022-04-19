@@ -173,7 +173,7 @@ definitionsDay3 = ["courteous and gallant, especially toward women",\
 				   "involving or characterized by conflict or opposition",\
 				   "(especially of a postion or view) not able to be maintained or defended against attack or objection",\
 				   "successful in producing a desired or intended result; effective",\
-				   "a division or contrast between two things that are or are represented as being opposed or entirely different"
+				   "a division or contrast between two things that are or are represented as being opposed or entirely different",\
 				   "cite as evidence",\
 				   "unimportant or trivial",\
 				   "standing out so as to be clearly visible",\
@@ -185,24 +185,24 @@ definitionsDay3 = ["courteous and gallant, especially toward women",\
 				   "(a thought) having or showing a sharp or critical quality; biting"]
 examplesDay3 = ["Shall I be chivalrous and offer you my coat.",\
 			    "Her friend was headstrong and impetuous as he never thinks twice.",\
-			    "The irascible teach will not condone any boorish behaviors.",\
+			    "The irascible teacher will not condone any boorish behaviors.",\
 			    "A circumspect trader would not buy Auzuki after the pump; it's not a safe play.",\
 			    "He is so modest that he even decided to forbear to include his own work.",\
 			    "Individuals are often forced to jettison certain attitudes and behaviors.",\
 			    "The ending of the novel is too contrived and too forced.",\
-			    "Miller reminded his clients that labor relationship are inherently adversarial as the interests of business owners are diametrically opposed to those of employees."
+			    "Miller reminded his clients that labor relationship are inherently adversarial as the interests of business owners are diametrically opposed to those of employees.",\
 			    "This argument is clearly untenable and thus should be dropped.",\
 			    "The vaccine has proved both efficacious and safe",\
-			    "Although progressive and reactionary populist movements seem like dichotomy they actually share certain features".
+			    "Although progressive and reactionary populist movements seem like dichotomy they actually share certain features.",\
 			    "The researcher hopes to adduce at least 5 results to explain the situation.",\
-			    "Although the introduction of the new fish theorectially would have detrimental effects on other fish, it turns out be pretty trifling and trivial.",\
-			    "The contribution he has shown was conspicuous although he doesn't have to speak much.",\
+			    "Although the introduction of the new fish theorectially would have detrimental effects on other fish, it turns out to be pretty trifling and trivial.",\
+			    "The contribution he showed was conspicuous although he didn't have to speak much.",\
 			    "He made a precarious living as a painter.",\
 			    "Systems of belief prevalent during different periods in history are incommensurable and therefore cannot be understood except in their own term.",\
 			    "The debate has turned acrimony and finger-pointing. Time to end this.",\
-			    "These issues caused bitter dissension in the party",\
-			    "The company suffers from an almost total lack of comity as even the most innocuouscommunications between departments lend to devolve into acrimony",\
-			    "He joined the Extreme Left, and his energy and mordant eloquence speedily made him the leader of the Radical section"]
+			    "These issues caused bitter dissension in the party.",\
+			    "The company suffers from an almost total lack of comity as even the most innocuous communications between departments lend to devolve into acrimony.",\
+			    "He joined the Extreme Left, and his energy and mordant eloquence speedily made him the leader of the Radical section."]
 
 
 everything = [[wordsDay0, definitionsDay0, examplesDay0], [wordsDay1, definitionsDay1, examplesDay1], [wordsDay2, definitionsDay2, examplesDay2],\
@@ -233,9 +233,6 @@ def fillToday():
 	allDefinitions.extend(i[1])
 	allExamples.extend(i[2])
 
-
-
-# print(len(wordsDay2))
-# print(len(definitionsDay2))
-# print(len(examplesDay2))
-
+# print(len(wordsDay3))
+# print(len(definitionsDay3))
+# print(len(examplesDay3))

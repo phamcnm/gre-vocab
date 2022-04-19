@@ -39,7 +39,11 @@ def quiz():
 			print("%i)" % question, end = ' ')
 			example = words.allExamples[i]
 			exampleL = example.split()
-			exampleL[exampleL.index(words.allWords[i])] = '______'
+			try:
+				exampleL[exampleL.index(words.allWords[i])] = '______'
+			except:
+				print("Problem finding the %s in this example %s" % (words.allWords[i], example))
+				continue
 			print(' '.join(exampleL))
 
 			choices = random.sample(words.allWords, random.randrange(4,6))
