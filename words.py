@@ -100,7 +100,66 @@ examplesDay1 = ["Cosmopolitan metropolis.",\
 			   "You don't want to mess with the irascible professor.",\
 			   "She rolled her eys in exasperation when she hears the question about a foundational concept the student should have known 5 weeks ago."]
 
-everything = [[wordsDay0, definitionsDay0, examplesDay0], [wordsDay1, definitionsDay1, examplesDay1]]
+wordsDay2 = ["decry", "condone", "explicable", "loath", "censure",\
+			 "supplant", "sift", "neophyte", "zealot", "motley",\
+			 "monolithic", "nepotism", "partisanship", "vacillation", "futile",\
+			 "flippant", "discursive", "tendentious", "alluring", "invenerate",\
+			 "exigency", "hodgepodge", "fractious", "sagacious", "affable",\
+			 "eroded"]
+definitionsDay2 = ["publicly denounce",\
+				   "accept or allow something to continue",\
+				   "able to be accounted for or understood",\
+				   "reluctant; unwilling",\
+				   "the expression of formal disapproval",\
+				   "supersede and replace something or someone",\
+				   "examine something thoroughly so as to isolate that which is most important or useful",\
+				   "a person who is new to a subject, skill, or belief",\
+				   "a person who is fanatical and uncompromising in pursuit of their religious, political, or other ideals",\
+				   "incongruously varied in appearance or character; disparate",\
+				   "formed of a single entity, indivisible and uniform",\
+				   "the practice among those with power or influence of favoring relatives or friends, especially by giving them jobs",\
+				   "a strong adherence, dedication, or loyalty to a political party",\
+				   "the inability to decide between different opinions or actions; indecisive",\
+				   "incapable of producing any useful result; pointless",\
+				   "lacking respect or seriousness",\
+				   "digressing from subject to subject",\
+				   "expressing or intending to promote a particular cause or point of view, especially a controversial one",\
+				   "powerfully and mysteriously attractive or fascinating; seductive",\
+				   "having a particular habit, activity, or interest that is long-established and unlikely to change",\
+				   "an urgent need or demand",\
+				   "a confused mixture",\
+				   "irritable and quarrelsome",\
+				   "having or showing keen mental discernment and good judgment",\
+				   "friendly, good-natured, or easy to talk to",\
+				   "gradually wearing away"]
+examplesDay2 = ["The least a government can do is to decry human rights abuses",\
+			    "The college cannot condone any behavior that involves illicit drugs.",\
+			    "The revolutionzing plan he proposed was not really explicable so we didn't really consider it.",\
+			    "I was loath to leave but I had to.",\
+			    "The celebrity has to consider the possible censure she might get if she comes out of the closet.",\
+			    "Another discovery could supplant the original finding.",\
+			    "Until we sift the evidence ourselves, we can't comment objectively.",\
+			    "The four-day beginner cooking class is perfect for me, a neophyte who just wants to learn the basics.",\
+			    "The art patron and collector Peggy Guggenheim was a zealot as she was only for the strangest, the most surprising, the most satisfying, the best, and the unique.",\
+			    "There is a motley assortment of tools designed to safeguard researchers against their own biases.",\
+			    "We want to reject any move toward a monolithic European superstate. The power of balance would be broken.",\
+			    "He promised an end to corruption and nepotism by holding a public vote on who's getting chosen.",\
+			    "Extreme partisanship is generally regarded as detrimental to the functioning of democratic governments, because people end up blindly support one side.",\
+			    "People don't want a leader with vacillation but a decisive one.",\
+			    "It was a futile attempt to change jobs. No one is willing to hire in this climate.",\
+			    "She was infuriated by his careless, flippant and frivolous attitude.",\
+			    "A lot of students often write dull, secondhand, discursive prose, so teachers want to teach them the power of brevity and prcise writing.",\
+			    "The youtuber is tendentious when talking about the matter between Russia and Ukraine",\
+			    "The town offers alluring shops and restaurants. I don't know why I keep wanting to come back to it.",\
+			    "He was an invenerate gambler but somehow his new girlfriend changed him. He now has a full-time job that is not gambling.",\
+			    "Women worked long hours when the exigency to fill the jobs when the men went to war arose.",\
+			    "Rob's living room was a hodgepodge of modern furniture and antiques.",\
+			    "They are so fractious as they fight and squabble over everything.",\
+			    "They were sagacious enough to avoid any outright confrontation.",\
+			    "He is an affable and agreeable companion. I would love to hangout with him more.",\
+			    "The cliffs have been eroded by the sea. The erosion is unstoppable."]
+
+everything = [[wordsDay0, definitionsDay0, examplesDay0], [wordsDay1, definitionsDay1, examplesDay1], [wordsDay2, definitionsDay2, examplesDay2]]
 
 allWords = []
 allDefinitions = []
@@ -129,7 +188,7 @@ def fillToday():
 
 
 
-# print(len(wordsDay0))
-# print(len(definitionsDay0))
-# print(len(exampleDay0))
+# print(len(wordsDay2))
+# print(len(definitionsDay2))
+# print(len(examplesDay2))
 

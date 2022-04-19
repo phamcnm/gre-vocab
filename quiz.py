@@ -59,10 +59,11 @@ def checkSpelling(response, word):
 
 
 def quiz():
-	print("What do you want to learn?")
-	print("All words: type a")
-	print("Recent new words: type b")
-	print("Today's words: type c")
+	print("\nWhat do you want to learn?\n")
+	print("\tAll words:         type a")
+	print("\tRecent new words:  type b")
+	print("\tToday's new words: type c")
+	print("")
 	while True:
 		learn = input("Type of learning: ")
 		if learn == "a":
@@ -78,8 +79,8 @@ def quiz():
 			print("Not a proper key. Type either a, b, or c")
 	
 	print("")
-	print("-c to show word choice")
-	print("-h to show example sentence")
+	print("\t-c to show word choice")
+	print("\t-h to show example sentence")
 	print("\nBegin...\n")
 	
 	indicesOfTestWords = [i for i in range(len(words.allWords))]
