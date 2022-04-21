@@ -4,9 +4,10 @@ import sys
 
 def quiz():
 	print("\nWhat do you want to learn?\n")
-	print("\tAll words:         type a")
-	print("\tRecent new words:  type b")
-	print("\tToday's new words: type c")
+	print("\tAll words:           type a")
+	print("\tRecent new words:    type b")
+	print("\tToday's new words:   type c")
+	print("\tNumber of days back: type a number")
 	print("")
 	while True:
 		learn = input("Type of learning: ")
@@ -19,8 +20,11 @@ def quiz():
 		elif learn == "c":
 			words.fillToday()
 			break
+		elif learn.isnumeric():
+			words.fillNumberOfDays(int(learn))
+			break
 		else:
-			print("Not a proper key. Type either a, b, or c")
+			print("Not a proper key. Type either a, b, c, or a number")
 	
 	print("")
 	print("\t-d to show definitions")

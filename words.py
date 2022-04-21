@@ -308,6 +308,17 @@ def fillToday():
 	allDefinitions.extend(i[1])
 	allExamples.extend(i[2])
 
+def fillNumberOfDays(n):
+	if len(everything) < n:
+		fillAll()
+	else:
+		j = len(everything) - 1
+		for i in range(n):
+			allWords.extend(everything[j][0])
+			allDefinitions.extend(everything[j][1])
+			allExamples.extend(everything[j][2])
+			j = j -1
+
 # print(len(wordsDay4))
 # print(len(definitionsDay4))
 # print(len(examplesDay4))
