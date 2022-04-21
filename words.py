@@ -24,7 +24,7 @@ examplesDay0 = ["The servant wants to beseech the king for food to feed his star
 			   "There's nothing you can do or say to fluster Frank.",\
 			   "It is not difficult to see why Edward is enamored of her.",\
 			   "After being, in turn, anxious, angry, and sometimes morose, he accepts the coming ineluctable defeat with serenity.",\
-			   "The local authority could find itself in the invidious position of having to refuse.",\
+			   "I was shocked to learn my best friend was spreading invidious rumors about me.",\
 			   "There was the plangent and echoing sound of sea waves.",\
 			   "He defeated the incumbent governor by a large plurality.",\
 			   "A nugatory and pointless observation.",\
@@ -72,7 +72,7 @@ definitionsDay1 = ["including or containing people from many different countries
 			   "the apperance of being true or real",\
 			   "having or showing tendency to be easily angered",\
 			   "a feeling of intense irratation or arrogance"]
-examplesDay1 = ["I have never seen a diverse as this city, so no wonder it is called the cosmopolitan metropolis.",\
+examplesDay1 = ["I have never seen a diverse place as this city, so no wonder it is called the cosmopolitan metropolis.",\
 			   "Her father had tried persuasion, but she was intransigent and refused to listen.",\
 			   "A mercenary Wall St broker.",\
 			   "Stubbornly insular farming people.",\
@@ -98,7 +98,7 @@ examplesDay1 = ["I have never seen a diverse as this city, so no wonder it is ca
 			   "As an artist, she gets most of her inspiration from nature; her daily walks in the woods are a fecund source of ideas.",\
 			   "The detail gives the novel a lot of verisimilitude and realism.",\
 			   "You don't want to mess with the irascible professor.",\
-			   "She rolled her eys in exasperation when she hears the question about a foundational concept the student should have known 5 weeks ago."]
+			   "She rolled her eyes in exasperation when she hears the question about a foundational concept the student should have known 5 weeks ago."]
 
 wordsDay2 = ["decry", "condone", "explicable", "loath", "censure",\
 			 "supplant", "sift", "neophyte", "zealot", "motley",\
@@ -201,12 +201,87 @@ examplesDay3 = ["Shall I be chivalrous and offer you my coat.",\
 			    "Systems of belief prevalent during different periods in history are incommensurable and therefore cannot be understood except in their own term.",\
 			    "The debate has turned acrimony and finger-pointing. Time to end this.",\
 			    "These issues caused bitter dissension in the party.",\
-			    "The company suffers from an almost total lack of comity as even the most innocuous communications between departments lend to devolve into acrimony.",\
+			    "The company suffers from an almost total lack of comity as even the most innocuous communications between departments led to devolve into acrimony.",\
 			    "He joined the Extreme Left, and his energy and mordant eloquence speedily made him the leader of the Radical section."]
 
+wordsDay4 = ["extrapolate", "insurmountable", "oust", "belie", "obviate",\
+			 "accentuate", "undue", "scant", "dwindle", "abbreviate",\
+			 "felicitous", "bolster", "corroborate", "outstrip", "erudite",\
+			 "precipitate", "judicious", "acrimonious", "onerous",\
+			 "opaque", "magisterial", "circumvent", "draconian", "rapacious",\
+			 "adjunct", "malady", "assuage", "profess", "antediluvian",\
+			 "chauvinistic", "flighty", "patronizing", "discern", "envisaged"]
+definitionsDay4 = ["extend the application of a method/conclusion to an unknown situation in another field or to predict the future",\
+				   "too great to be overcome",\
+				   "drive out or expel (someone) from a position or place",\
+				   "fail to give a true notion or impression of (something); disguise or contradict",\
+				   "remove (a need or difficulty)",\
+				   "make more noticeable or prominent",\
+				   "unwarranted or inappropriate because excessive or disproportionate",\
+				   "barely sufficient or adequate",\
+				   "diminish gradually in size, amount, or strength",\
+				   "shorten the duration of; cut short",\
+				   "well-chosen or suited/pleasing and fortunate",\
+				   "support or strengthen; prop up",\
+				   "confirm or give support to (a statement, theory, or finding)",\
+				   "exceed",\
+				   "having or showing great knowledge or learning",\
+				   "cause (an event or situation, typically one that is bad or undesirable) to happen suddenly, unexpectedly, or prematurely",\
+				   "having, showing, or done with good judgment or sense",\
+				   "angry and bitter",\
+				   "involving an amount of effort and difficulty that is oppressively burdensome",\
+				   "not able to be seen through; not transparent",\
+				   "having or showing great authority",\
+				   "find a way around (an obstacle)/overcome (a problem or difficulty), typically in a clever and surreptitious way",\
+				   "excessively harsh and severe",\
+				   "aggressively greedy or grasping",\
+				   "a thing added to something else as a supplementary rather than an essential part",\
+				   "a disease or ailment",\
+				   "make (an unpleasant feeling) less intense",\
+				   "to affirm openly; declare or claim, sometimes when this is not the case",\
+				   "ridiculously old-fashioned",\
+				   "feeling or displaying aggressive or exaggerated patriotism",\
+				   "fickle and irresponsible",\
+				   "apparently kind or helpful but betraying a feeling of superiority; condescending",\
+				   "perceive or recognize (something)",\
+				   "contemplated or conceived of as a possibility or a desirable future event"]
+examplesDay4 = ["One way to predict the effects of global climate change on an ecosystem is to extrapolate current trend in global change factors into the future.",\
+				"The problem has become insurmountable over time that we should just give up.",\
+				"He would need to oust a long-term incumbent by at least 5000 votes.",\
+				"The useful proteins whose simple names belie their importance and the specificity of their roles in the thinning and clotting of blood.",\
+				"The Venetian blinds obviate the need for curtains",\
+				"His good manners accentuate how educated he is.",\
+				"He was giving undue attention to the conversation so I told him to focus on the driving.",\
+				"Don't work for companies with scant regard for the safety of future generations.",\
+				"Traffic is starting to dwindle down, it's time to go out.",\
+				"I decided to abbreviate my stay in Cambridge.",\
+				"The view was the room's only felicitous feature.",\
+				"The improvement in grades is starting to bolster his confidence.",\
+				"The witness was there to corroborate the boy's account of the attack.",\
+				"The supply is going to far outstrip the demand.",\
+				"Ken could turn any conversation into an erudite discussion.",\
+				"If the president got involved in the scandal last night, it would precipitate a political crisis.",\
+				"We should listen to the judicious opinion of uncle Iroh.",\
+				"A simple request for a day off turns an acrimonious dispute about wages.",\
+				"He found his duties increasingly onerous that he decided to quit before it became unbearable.",\
+				"The windows were opaque with steam.",\
+				"She talked with the magisterial authority of the head of the family.",\
+				"I found it quite easy to circumvent security.",\
+				"The Nazis destroyed the independence of the press by a series of draconian laws.",\
+				"However cruel and rapacious the Vikings may have been, the work of disorder and ruin was not all theirs.",\
+				"Computer technology is an adjunct to learning. You don't need it as people used to learn a lot without it. But it's nice to have.",\
+				"The incurable malady has caused thousands of deaths.",\
+				"The annoucement hopefully can assuage the fears of most holders.",\
+				"I don't profess to be a believer, but I'd like to think I have an open mind.",\
+				"The way they taught the AI class is antediluvian as it is 20 years behind the cutting edge techonology being used in the industry.",\
+				"Don't be chauvinistic and instead be open-minded and neutral about international problems.",\
+				"You may be seen as too flighty to hold an important responsibility for years.",\
+				"The tutor seemingly is helpful but super patronizing and low key condescending.",\
+				"We must discern between the truth and lies.",\
+				"The Rome Treaty envisaged free movement across frontiers."]
 
 everything = [[wordsDay0, definitionsDay0, examplesDay0], [wordsDay1, definitionsDay1, examplesDay1], [wordsDay2, definitionsDay2, examplesDay2],\
-			  [wordsDay3, definitionsDay3, examplesDay3]]
+			  [wordsDay3, definitionsDay3, examplesDay3], [wordsDay4, definitionsDay4, examplesDay4]]
 
 allWords = []
 allDefinitions = []
@@ -233,6 +308,6 @@ def fillToday():
 	allDefinitions.extend(i[1])
 	allExamples.extend(i[2])
 
-# print(len(wordsDay3))
-# print(len(definitionsDay3))
-# print(len(examplesDay3))
+# print(len(wordsDay4))
+# print(len(definitionsDay4))
+# print(len(examplesDay4))

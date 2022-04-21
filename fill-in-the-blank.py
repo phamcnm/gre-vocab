@@ -42,7 +42,7 @@ def quiz():
 			try:
 				exampleL[exampleL.index(words.allWords[i])] = '______'
 			except:
-				print("Problem finding the %s in this example %s" % (words.allWords[i], example))
+				print("Problem finding the \"%s\" in this example: %s" % (words.allWords[i], example))
 				continue
 			print(' '.join(exampleL))
 
