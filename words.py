@@ -280,8 +280,95 @@ examplesDay4 = ["One way to predict the effects of global climate change on an e
 				"We must discern between the truth and lies.",\
 				"The Rome Treaty envisaged free movement across frontiers."]
 
+wordsDay5 = ["perfidious", "loquacious", "haphazard", "burlesque", "pastiche",\
+			 "esoteric", "surreptitious", "vexatious", "apropos", "churlish",\
+			 "cagey", "pugnacious", "complacent", "truculent", "arduous",\
+			 "stave-off", "forestall", "illusory", "evanescent", "punctilious",\
+			 "prosaic", "arcane", "quixotic", "skullduggery", "indolence",\
+			 "incivility", "lethargy", "fervor", "conciliatory", "beguiled",\
+			 "buoyed", "insouciance", "alacrity", "pedestrian", "knotty",\
+			 "vapid", "inaccessible", "confined", "animosity"]
+definitionsDay5 = ["deceitful and untrustworthy",\
+				   "tending to talk a great deal; talkative",\
+				   "lacking any obvious principle of organization",\
+				   "a parody, an absurd or comically exaggerated imitation of something, especially in a literary or dramatic work",\
+				   "an artistic work consisting of a medley of pieces taken from various sources/an artistic work in a style that imitates that of another work, artist, or period",\
+				   "intended for or likely to be understood by only a small number of people with a specialized knowledge or interest",\
+				   "kept secret, especially because it would not be approved of",\
+				   "causing or tending to cause annoyance, frustration, or worry",\
+				   "very appropriate to a particular situation",\
+				   "rude in a mean-spirited and surly way",\
+				   "reluctant to give information owing to caution or suspicion",\
+				   "eager or quick to argue, quarrel, or fight",\
+				   "showing smug or uncritical satisfaction with oneself or one's achievements",\
+				   "eager or quick to argue or fight; aggressively defiant and resistant",\
+				   "involving or requiring strenuous effort; difficult and tiring",\
+				   "avert or delay something bad or dangerous",\
+				   "prevent or obstruct (an anticipated event or action) by taking action ahead of time",\
+				   "based on illusion; not real",\
+				   "soon passing out of sight, memory, or existence; quickly fading or disappearing",\
+				   "showing great attention to detail or correct behavior",\
+				   "commonplace; unromantic/having the style or diction of prose; lacking poetic beauty",\
+				   "understood by few; mysterious or secret",\
+				   "exceedingly idealistic; unrealistic and impractical",\
+				   "trickery intended to take advantage of you in some way",\
+				   "avoidance of activity or exertion; laziness",\
+				   "rude or unsociable speech or behavior",\
+				   "a lack of energy and enthusiasm",\
+				   "intense and passionate feeling",\
+				   "intended or likely to overcome animosity or hostility",\
+				   "charmed or enchanted, sometimes in a deceptive way",\
+				   "caused to become cheerful or confident",\
+				   "casual lack of concern; indifference; the cheerful feeling you have when nothing is troubling you",\
+				   "brisk and cheerful readiness",\
+				   "lacking inspiration or excitement; dull",\
+				   "extremely difficult or intricate",\
+				   "offering nothing that is stimulating or challenging",\
+				   "difficult to understand or appreciate",\
+				   "restricted in area or volume; cramped",\
+				   "strong hostility"]
+examplesDay5 = ["She described the new criminal bill as a perfidious attack on democracy.",\
+				"The interviewer was blown away by his loquacious personality.",\
+				"The kitchen drawers contained a haphazard collection of silver souvenir spoons, forks, knives, ... pretty any possible things, that don't go together.",\
+				"The funniest burlesque of opera.",\
+				"The film was a pastiche as its elements were assembled more or less haphazardly from a dozen of different sources.",\
+				"Some words are really too esoteric for 99 percent of the population.",\
+				"They carried on a surreptitious affair.",\
+				"That's such a vexatious question: it needs an answer but it's not easy.",\
+				"the example is very apropos as nothing else would be better suited here.",\
+				"it seems churlish to complain even though the waiter meant no bad intentions.",\
+				"I'm cagey to tell him what I really think about the situation as I don't fully trust the guy.",\
+				"Lawyers sometimes are not the most pugnacious as they only argue when it's necessary.",\
+				"When I lived far away from my strict parents, I slowly became more complacent and okay with being mediocre.",\
+				"He became very truculent and started arguing with me angrily.",\
+				"An arduous and tiring journey has come to a rewarding end.",\
+				"A reassuring presence can stave-off a panic attack.",\
+				"Vitamins may forestall many diseases that comes with aging.",\
+				"She knew the safety of her room was illusory so she needed to do something.",\
+				"Talk is evanescent while writing leaves footprints.",\
+				"I'm always very punctilious in providing every amenity for his guests that I forget to actually talk to them.",\
+				"The masses were too preoccupied by prosaic day-to-day concerns",\
+				"Modern math and its arcane notations are mysterious to many.",\
+				"This is a vast, exciting, and perhaps quixotic project.",\
+				"He is serving a prison sentence for financial skullduggery that targetted at least 100 people.",\
+				"My indolence is defintely the reason why I'm unemployed right now.",\
+				"The strict professor definitely does not condone any incivility from anyone. No exceptions.",\
+				"Life is a marathon. As long as you can minimize the lethargy periods, you can always outpace other people.",\
+				"He talks about NFTs with so much fervor that people think he's crazy to believe in multi-millions dollars pictures of apes that much.",\
+				"Perhaps you should adopt a more conciliatory approach.",\
+				"Every prominent American artist has been beguiled by Maine.",\
+				"The party was buoyed by the news that Elon Musk is going to make an apperance.",\
+				"Neil has an insouciance to not care about every random things.",\
+				"They accepted the job offer with alacrity as it was so appealing.",\
+				"His speech was long, pedestrian and put everyone to sleep.",\
+				"Philosophers have to deal with very knotty ethical questions.",\
+				"Math classes in high school cannot be more vapid and boring.",\
+				"A lot of phisophical writing are embedded in a dense English translation of a dense German original that may make many of them inaccessible to most readers.",\
+				"This hotel room is so confined that I need to get out of here as soon as possible.",\
+				"After forcing Forgotten Vayne three games in a row, I felt no animosity towards my critics. I agreed with them that it cannot be any more degenerate than that."]
+
 everything = [[wordsDay0, definitionsDay0, examplesDay0], [wordsDay1, definitionsDay1, examplesDay1], [wordsDay2, definitionsDay2, examplesDay2],\
-			  [wordsDay3, definitionsDay3, examplesDay3], [wordsDay4, definitionsDay4, examplesDay4]]
+			  [wordsDay3, definitionsDay3, examplesDay3], [wordsDay4, definitionsDay4, examplesDay4], [wordsDay5, definitionsDay5, examplesDay5]]
 
 allWords = []
 allDefinitions = []
@@ -319,6 +406,6 @@ def fillNumberOfDays(n):
 			allExamples.extend(everything[j][2])
 			j = j -1
 
-# print(len(wordsDay4))
-# print(len(definitionsDay4))
-# print(len(examplesDay4))
+# print(len(everything[len(everything)-1][0]))
+# print(len(everything[len(everything)-1][1]))
+# print(len(everything[len(everything)-1][2]))
