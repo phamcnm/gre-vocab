@@ -1,3 +1,5 @@
+import csv
+
 wordsDay0 = ["beseech", "fluster", "enamored", "ineluctable", "invidious",\
 			 "plangent", "incumbent", "nugatory", "contentious", "denouement",\
 			 "predilection", "affinity", "sanguine", "choleric", "physiognomy",\
@@ -370,42 +372,28 @@ examplesDay5 = ["She described the new criminal bill as a perfidious attack on d
 everything = [[wordsDay0, definitionsDay0, examplesDay0], [wordsDay1, definitionsDay1, examplesDay1], [wordsDay2, definitionsDay2, examplesDay2],\
 			  [wordsDay3, definitionsDay3, examplesDay3], [wordsDay4, definitionsDay4, examplesDay4], [wordsDay5, definitionsDay5, examplesDay5]]
 
-allWords = []
-allDefinitions = []
-allExamples = []
+cols = ["index", "word", "day", "correct", "tested", "definition", "example"]
 
-def fillAll():
-	for i in range(len(everything)):
-		allWords.extend(everything[i][0])
-		allDefinitions.extend(everything[i][1])
-		allExamples.extend(everything[i][2])
+rows = []
+idx = 0
+for day in range(len(everything)):
+	for i in range(len(everything[day][0])):
+		curr = []
+		curr.append(idx)
+		curr.append(everything[day][0][i])
+		curr.append(day) #day
+		curr.append(0) #correct
+		curr.append(0) #tested
+		curr.append(everything[day][1][i])
+		curr.append(everything[day][2][i])
+		idx += 1
+		rows.append(curr)
+# print(rows)
 
-def fillRecent():
-	if len(everything) < 5:
-		fillAll()
-	else:
-		for idx in range(len(everything)-5, everything):
-			allWords.extend(everything[i][0])
-			allDefinitions.extend(everything[i][1])
-			allExamples.extend(everything[i][2])
+with open('words.csv', 'w') as f:
 
-def fillToday():
-	i = everything[len(everything)-1]
-	allWords.extend(i[0])
-	allDefinitions.extend(i[1])
-	allExamples.extend(i[2])
+    # using csv.writer method from CSV package
+    write = csv.writer(f)
 
-def fillNumberOfDays(n):
-	if len(everything) < n:
-		fillAll()
-	else:
-		j = len(everything) - 1
-		for i in range(n):
-			allWords.extend(everything[j][0])
-			allDefinitions.extend(everything[j][1])
-			allExamples.extend(everything[j][2])
-			j = j -1
-
-# print(len(everything[len(everything)-1][0]))
-# print(len(everything[len(everything)-1][1]))
-# print(len(everything[len(everything)-1][2]))
+    write.writerow(cols)
+    write.writerows(rows)
