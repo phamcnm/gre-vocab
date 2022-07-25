@@ -103,7 +103,7 @@ examplesDay1 = ["I have never seen a diverse place as this city, so no wonder it
 wordsDay2 = ["decry", "condone", "explicable", "loath", "censure",\
 			 "supplant", "sift", "neophyte", "zealot", "motley",\
 			 "monolithic", "nepotism", "partisanship", "vacillation", "futile",\
-			 "flippant", "discursive", "tendentious", "alluring", "invenerate",\
+			 "flippant", "discursive", "tendentious", "alluring", "inveterate",\
 			 "exigency", "hodgepodge", "fractious", "sagacious", "affable",\
 			 "eroded"]
 definitionsDay2 = ["publicly denounce",\
@@ -151,7 +151,7 @@ examplesDay2 = ["The least a government can do is to decry human rights abuses",
 			    "A lot of students often write dull, secondhand, discursive prose, so teachers want to teach them the power of brevity and prcise writing.",\
 			    "The youtuber is tendentious when talking about the matter between Russia and Ukraine",\
 			    "The town offers alluring shops and restaurants. I don't know why I keep wanting to come back to it.",\
-			    "He was an invenerate gambler but somehow his new girlfriend changed him. He now has a full-time job that is not gambling.",\
+			    "He was an inveterate gambler but somehow his new girlfriend changed him. He now has a full-time job that is not gambling.",\
 			    "Women worked long hours when the exigency to fill the jobs when the men went to war arose.",\
 			    "Rob's living room was a hodgepodge of modern furniture and antiques.",\
 			    "They are so fractious as they fight and squabble over everything.",\
@@ -336,7 +336,7 @@ examplesDay5 = ["She described the new criminal bill as a perfidious attack on d
 				"They carried on a surreptitious affair.",\
 				"That's such a vexatious question: it needs an answer but it's not easy.",\
 				"The example is very apropos as nothing else would be better suited here.",\
-				"It seems churlish to complain because the waiter meant no bad intentions when he made the mistake.",\
+				"It seems churlish to complain because the waiter meant no bad intentions when he made the.",\
 				"I'm cagey to tell him what I really think about the situation as I don't fully trust the guy.",\
 				"Lawyers sometimes are not the most pugnacious as they only argue when it's necessary.",\
 				"When I lived far away from my strict parents, I slowly became more complacent and okay with being mediocre.",\
@@ -384,10 +384,10 @@ def fillRecent():
 	if len(everything) < 5:
 		fillAll()
 	else:
-		for idx in range(len(everything)-5, everything):
-			allWords.extend(everything[i][0])
-			allDefinitions.extend(everything[i][1])
-			allExamples.extend(everything[i][2])
+		for idx in range(len(everything)-5, len(everything)):
+			allWords.extend(everything[idx][0])
+			allDefinitions.extend(everything[idx][1])
+			allExamples.extend(everything[idx][2])
 
 def fillToday():
 	i = everything[len(everything)-1]
@@ -406,3 +406,6 @@ def fillNumberOfDays(n):
 			allExamples.extend(everything[j][2])
 			j = j -1
 
+# print(len(everything[len(everything)-1][0]))
+# print(len(everything[len(everything)-1][1]))
+# print(len(everything[len(everything)-1][2]))
