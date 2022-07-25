@@ -25,21 +25,21 @@ definitionsDay0 = ["to beg, plead, implore",\
 examplesDay0 = ["The servant wants to beseech the king for food to feed his starving family.",\
 			   "There's nothing you can do or say to fluster Frank.",\
 			   "It is not difficult to see why Edward is enamored of her.",\
-			   "After being, in turn, anxious, angry, and sometimes morose, he accepts the coming ineluctable defeat with serenity.",\
+			   "After being anxious, angry, and sometimes morose, he accepts the coming ineluctable defeat with serenity.",\
 			   "I was shocked to learn my best friend was spreading invidious rumors about me.",\
 			   "There was the plangent and echoing sound of sea waves.",\
 			   "He defeated the incumbent governor by a large plurality.",\
-			   "A nugatory and pointless observation.",\
-			   "The socioeconomic plan had been the subject of contentious debate.",\
+			   "The observation is nugatory and pointless.",\
+			   "The socioeconomic plan had been the subject of the contentious debate.",\
 			   "The film's denouement was unsatisfying and ambiguous.",\
 			   "I have a predilection for Asian food.",\
 			   "He has an affinity for the music of Berlioz.",\
 			   "She is sanguine about prospects for the global economy.",\
-			   "A choleric and self-important little man.",\
-			   "Friends began to notice a change in his physiognomy after he hears the news.",\
-			   "She had an artistic temperament and so no wonder why she thinks like one.",\
-			   "Her good humor vanished.",\
-			   "They heard the sound as an augury of death."]
+			   "The man is choleric, angry, and self-important.",\
+			   "Friends began to notice a change in his physiognomy after he hears the terrible news.",\
+			   "She had an artistic temperament, so no wonder why she thinks like an artist.",\
+			   "Her good humor vanished when she heard that terrible news.",\
+			   "They heard the crow sound as an augury of death."]
 
 wordsDay1 = ["cosmopolitan", "intransigent", "mercenary", "insular", "capricious",\
 			"clamorous", "numinous", "empirical", "sonorous", "dearth",\
@@ -135,31 +135,31 @@ definitionsDay2 = ["publicly denounce",\
 				   "friendly, good-natured, or easy to talk to",\
 				   "gradually wearing away"]
 examplesDay2 = ["The least a government can do is to decry human rights abuses",\
-			    "The college cannot condone any behavior that involves illicit drugs.",\
-			    "The revolutionzing plan he proposed was not really explicable so we didn't really consider it.",\
-			    "I was loath to leave but I had to.",\
-			    "The celebrity has to consider the possible censure she might get if she comes out of the closet.",\
-			    "Another discovery could supplant the original finding.",\
-			    "Until we sift the evidence ourselves, we can't comment objectively.",\
-			    "The four-day beginner cooking class is perfect for me, a neophyte who just wants to learn the basics.",\
-			    "The art patron and collector Peggy Guggenheim was a zealot as she was only for the strangest, the most surprising, the most satisfying, the best, and the unique.",\
-			    "There is a motley assortment of tools designed to safeguard researchers against their own biases.",\
-			    "We want to reject any move toward a monolithic European superstate. The power of balance would be broken.",\
-			    "He promised an end to corruption and nepotism by holding a public vote on who's getting chosen.",\
-			    "Extreme partisanship is generally regarded as detrimental to the functioning of democratic governments, because people end up blindly support one side.",\
-			    "People don't want a leader with vacillation but a decisive one.",\
-			    "It was a futile attempt to change jobs. No one is willing to hire in this climate.",\
-			    "She was infuriated by his careless, flippant and frivolous attitude.",\
-			    "A lot of students often write dull, secondhand, discursive prose, so teachers want to teach them the power of brevity and prcise writing.",\
-			    "The youtuber is tendentious when talking about the matter between Russia and Ukraine",\
-			    "The town offers alluring shops and restaurants. I don't know why I keep wanting to come back to it.",\
-			    "He was an invenerate gambler but somehow his new girlfriend changed him. He now has a full-time job that is not gambling.",\
-			    "Women worked long hours when the exigency to fill the jobs when the men went to war arose.",\
-			    "Rob's living room was a hodgepodge of modern furniture and antiques.",\
-			    "They are so fractious as they fight and squabble over everything.",\
-			    "They were sagacious enough to avoid any outright confrontation.",\
-			    "He is an affable and agreeable companion. I would love to hangout with him more.",\
-			    "The cliffs have been eroded by the sea. The erosion is unstoppable."]
+				"The college cannot condone any behavior that involves illicit drugs.",\
+				"The revolutionzing plan he proposed was not really explicable so we didn't really consider it.",\
+				"I was loath to leave but I had to.",\
+				"The celebrity has to consider the possible censure she might get if she comes out of the closet.",\
+				"Another discovery could supplant the original finding.",\
+				"Until we sift the evidence ourselves, we can't comment objectively.",\
+				"The four-day beginner cooking class is perfect for me, a neophyte who just wants to learn the basics.",\
+				"The art patron and collector Peggy Guggenheim was a zealot as she was only for the strangest, the most surprising, the most satisfying, the best, and the unique.",\
+				"There is a motley assortment of tools designed to safeguard researchers against their own biases.",\
+				"We want to reject any move toward a monolithic European superstate. The power of balance would be broken.",\
+				"He promised an end to corruption and nepotism by holding a public vote on who's getting chosen.",\
+				"Extreme partisanship is generally regarded as detrimental to the functioning of democratic governments, because people end up blindly support one side.",\
+				"People don't want a leader with vacillation but a decisive one.",\
+				"It was a futile attempt to change jobs. No one is willing to hire in this climate.",\
+				"She was infuriated by his careless, flippant and frivolous attitude.",\
+				"A lot of students often write dull, secondhand, discursive prose, so teachers want to teach them the power of brevity and prcise writing.",\
+				"The youtuber is tendentious when talking about the matter between Russia and Ukraine",\
+				"The town offers alluring shops and restaurants. I don't know why I keep wanting to come back to it.",\
+				"He was an invenerate gambler but somehow his new girlfriend changed him. He now has a full-time job that is not gambling.",\
+				"Women worked long hours when the exigency to fill the jobs when the men went to war arose.",\
+				"Rob's living room was a hodgepodge of modern furniture and antiques.",\
+				"They are so fractious as they fight and squabble over everything.",\
+				"They were sagacious enough to avoid any outright confrontation.",\
+				"He is an affable and agreeable companion. I would love to hangout with him more.",\
+				"The cliffs have been eroded by the sea. The erosion is unstoppable."]
 
 wordsDay3 = ["chivalrous", "impetuous", "boorish", "circumspect", "forbear",\
 			 "jettison", "contrived", "adversarial", "untenable", "efficacious",\
@@ -186,25 +186,25 @@ definitionsDay3 = ["courteous and gallant, especially toward women",\
 				   "courtesy and considerate behavior toward others",\
 				   "(a thought) having or showing a sharp or critical quality; biting"]
 examplesDay3 = ["Shall I be chivalrous and offer you my coat.",\
-			    "Her friend was headstrong and impetuous as he never thinks twice.",\
-			    "The irascible teacher will not condone any boorish behaviors.",\
-			    "A circumspect trader would not buy Auzuki after the pump; it's not a safe play.",\
-			    "He is so modest that he even decided to forbear to include his own work.",\
-			    "Individuals are often forced to jettison certain attitudes and behaviors.",\
-			    "The ending of the novel is too contrived and too forced.",\
-			    "Miller reminded his clients that labor relationship are inherently adversarial as the interests of business owners are diametrically opposed to those of employees.",\
-			    "This argument is clearly untenable and thus should be dropped.",\
-			    "The vaccine has proved both efficacious and safe",\
-			    "Although progressive and reactionary populist movements seem like dichotomy they actually share certain features.",\
-			    "The researcher hopes to adduce at least 5 results to explain the situation.",\
-			    "Although the introduction of the new fish theorectially would have detrimental effects on other fish, it turns out to be pretty trifling and trivial.",\
-			    "The contribution he showed was conspicuous although he didn't have to speak much.",\
-			    "He made a precarious living as a painter.",\
-			    "Systems of belief prevalent during different periods in history are incommensurable and therefore cannot be understood except in their own term.",\
-			    "The debate has turned acrimony and finger-pointing. Time to end this.",\
-			    "These issues caused bitter dissension in the party.",\
-			    "The company suffers from an almost total lack of comity as even the most innocuous communications between departments led to devolve into acrimony.",\
-			    "He joined the Extreme Left, and his energy and mordant eloquence speedily made him the leader of the Radical section."]
+				"Her friend was headstrong and impetuous as he never thinks twice.",\
+				"The irascible teacher will not condone any boorish behaviors.",\
+				"A circumspect trader would not buy Auzuki after the pump; it's not a safe play.",\
+				"He is so modest that he even decided to forbear to include his own work.",\
+				"Individuals are often forced to jettison certain attitudes and behaviors.",\
+				"The ending of the novel is too contrived and too forced.",\
+				"Miller reminded his clients that labor relationship are inherently adversarial as the interests of business owners are diametrically opposed to those of employees.",\
+				"This argument is clearly untenable and thus should be dropped.",\
+				"The vaccine has proved both efficacious and safe",\
+				"Although progressive and reactionary populist movements seem like dichotomy they actually share certain features.",\
+				"The researcher hopes to adduce at least 5 results to explain the situation.",\
+				"Although the introduction of the new fish theorectially would have detrimental effects on other fish, it turns out to be pretty trifling and trivial.",\
+				"The contribution he showed was conspicuous although he didn't have to speak much.",\
+				"He made a precarious living as a painter.",\
+				"Systems of belief prevalent during different periods in history are incommensurable and therefore cannot be understood except in their own term.",\
+				"The debate has turned acrimony and finger-pointing. Time to end this.",\
+				"These issues caused bitter dissension in the party.",\
+				"The company suffers from an almost total lack of comity as even the most innocuous communications between departments led to devolve into acrimony.",\
+				"He joined the Extreme Left, and his energy and mordant eloquence speedily made him the leader of the Radical section."]
 
 wordsDay4 = ["extrapolate", "insurmountable", "oust", "belie", "obviate",\
 			 "accentuate", "undue", "scant", "dwindle", "abbreviate",\
@@ -372,28 +372,12 @@ examplesDay5 = ["She described the new criminal bill as a perfidious attack on d
 everything = [[wordsDay0, definitionsDay0, examplesDay0], [wordsDay1, definitionsDay1, examplesDay1], [wordsDay2, definitionsDay2, examplesDay2],\
 			  [wordsDay3, definitionsDay3, examplesDay3], [wordsDay4, definitionsDay4, examplesDay4], [wordsDay5, definitionsDay5, examplesDay5]]
 
-cols = ["index", "word", "day", "correct", "tested", "definition", "example"]
-
-rows = []
-idx = 0
-for day in range(len(everything)):
-	for i in range(len(everything[day][0])):
-		curr = []
-		curr.append(idx)
-		curr.append(everything[day][0][i])
-		curr.append(day) #day
-		curr.append(0) #correct
-		curr.append(0) #tested
-		curr.append(everything[day][1][i])
-		curr.append(everything[day][2][i])
-		idx += 1
-		rows.append(curr)
-# print(rows)
-
-with open('words.csv', 'w') as f:
-
-    # using csv.writer method from CSV package
-    write = csv.writer(f)
-
-    write.writerow(cols)
-    write.writerows(rows)
+with open('allwords.txt', 'w') as f:
+	for day in range(len(everything)):
+		for i in range(len(everything[day][0])):
+			f.write(everything[day][0][i])
+			f.write("\t")
+			f.write(everything[day][1][i])
+			f.write("\t")
+			f.write(everything[day][2][i])
+			f.write("\n")

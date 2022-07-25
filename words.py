@@ -336,7 +336,7 @@ examplesDay5 = ["She described the new criminal bill as a perfidious attack on d
 				"They carried on a surreptitious affair.",\
 				"That's such a vexatious question: it needs an answer but it's not easy.",\
 				"The example is very apropos as nothing else would be better suited here.",\
-				"It seems churlish to complain even though the waiter meant no bad intentions.",\
+				"It seems churlish to complain because the waiter meant no bad intentions when he made the mistake.",\
 				"I'm cagey to tell him what I really think about the situation as I don't fully trust the guy.",\
 				"Lawyers sometimes are not the most pugnacious as they only argue when it's necessary.",\
 				"When I lived far away from my strict parents, I slowly became more complacent and okay with being mediocre.",\
@@ -406,6 +406,3 @@ def fillNumberOfDays(n):
 			allExamples.extend(everything[j][2])
 			j = j -1
 
-# print(len(everything[len(everything)-1][0]))
-# print(len(everything[len(everything)-1][1]))
-# print(len(everything[len(everything)-1][2]))
